@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('background.jpg');
+    background-image: url('https://raw.githubusercontent.com/andrej-koman/andrej-koman.github.io/main/background.jpg');
     height: auto;
     width: auto;
 }
