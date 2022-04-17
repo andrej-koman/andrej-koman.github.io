@@ -1,0 +1,31 @@
+* {
+    color: white;
+    font-family: Arial;
+}
+
+body {
+    background-image: url('background.jpg');
+    height: auto;
+    width: auto;
+}
+
+#timeContainer {
+    margin: auto;
+    width: 30%;
+    height: 30%;
+    border: 2px solid gray;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 15%;
+}
+
+#timeContainer>div>h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+#timeContainer>div>div {
+    font-size: 30px;
+    display: flex;
+    margin-left: 200px;
+}

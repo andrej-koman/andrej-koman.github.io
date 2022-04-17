@@ -1,0 +1,5 @@
+To do:
+- Rabim današnji dan, uro, sekundo, minuto, leto
+- Rabim dan,uro,minuto,sekundo od zadnjega dneva v letu
+- Dodajam konstantno sekunde, ko dosežejo 60 se pridoda k uri itd.
+- Ko to deluje, moram dodat nekakšno animicajo ko doseže novo leto.
