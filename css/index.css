@@ -1,31 +1,51 @@
-* {
-    color: white;
-    font-family: Arial;
-}
-
+html,
 body {
-    background-image: url('https://raw.githubusercontent.com/andrej-koman/andrej-koman.github.io/main/background.jpg');
-    height: auto;
-    width: auto;
+    height: 100%;
+    background-color: #807470;
+    color: rgb(255, 255, 255);
 }
 
-#timeContainer {
-    margin: auto;
-    width: 30%;
-    height: 30%;
-    border: 2px solid gray;
-    background-color: rgba(0, 0, 0, 0.7);
-    margin-top: 15%;
-}
-
-#timeContainer>div>h1 {
+#container {
     display: flex;
+    position: relative;
+    align-items: center;
     justify-content: center;
-    margin-top: 15%;
 }
 
-#timeContainer>div>div {
+#canvas {
+    width: 700px;
+    height: 450px;
+    position: fixed;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#wordOutputWrapper {
+    position: absolute;
     font-size: 30px;
-    display: flex;
-    margin-left: 200px;
+    margin-top: 300px;
+}
+
+#lettersDiv {
+    margin-top: 450px;
+}
+
+#guessesLeft {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+#slo,
+#eng {
+    float: right;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -50px;
+    background-color: #4C4542;
+    padding-bottom: 10px;
 }
